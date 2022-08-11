@@ -1,0 +1,673 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+      /*  main header  */
+
+.navbar-brand {
+  font-size: 26px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #fff!important;
+}
+.collapse {
+  position: relative;
+  justify-content: end;
+}
+.nav-item {
+  padding: 0px 30px;
+}
+.nav-link {
+  font-size: 20px!important;
+  font-family: 'Nunito', sans-serif!important;
+  font-weight: 600!important;
+  color: #fff!important;
+}
+.header {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  color: #000!important;
+  z-index: 99;
+}
+        /* banner sections */
+.banner{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url(../images/masthead.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+}
+
+.banner-tital{
+  text-align: center;
+  padding-top:248px;
+
+}
+
+.banner h1{
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  font-size: 100px;
+  font-family: 'Varela Round', sans-serif;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  letter-spacing: 17px;
+  font-weight: 500;
+  line-height: 85px;
+}
+
+.banner h2{
+    width: 412px;
+    font-family: "Varela+Round",sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.6;
+
+}
+
+.banner-buttan{
+  padding-top: 87px;
+}
+
+.banner-buttan a {
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 10%);
+    padding: 1.25rem 2rem;
+    font-family: "Varela Round", sans-serif;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: 0;
+    background: ##64a19d;
+    text-decoration: none;
+    background: #64a19d;
+    color: #ffffff;
+}
+/* .banner-buttan a:hover{
+  background-color: #18423f;
+  margin: 2px;
+} */
+
+
+.built {
+    padding-top: 150px;
+    background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.built-containt h1 {
+    margin: 0;
+    text-align: center;
+    font-family: 'Nunito';
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 85px;
+}
+
+.built-containt p {
+    margin: 0;
+    text-align: center;
+    color: #999;
+    font-size: 17px;
+    font-family: 'Varela Round';
+    line-height: 1.7;
+}
+
+.grayscale-img {
+    position: relative;
+    padding-top: 80px;
+}
+
+
+        /* project middle portaion start */
+
+.project-section{
+  margin-top: 10%;
+}
+
+.project-contant {
+    padding: 0 0 0 3rem;
+    margin-top: 150px;
+    border-left: solid 8px #52ab95;
+}
+
+.editor{
+  background-color: #000000;
+}
+
+.project-contant h4 {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Nunito';
+    font-weight: 200;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.project-contant p {
+    margin: 0;
+    font-size: 17px;
+    font-family: 'Varela Round';
+    font-weight: 100;
+    padding-right: 158px;
+    line-height: 1.6;
+    color: #9f9f9f;
+}
+
+.misty-contant {
+    position: relative;
+    padding: 144px 26px 59px 61px;
+}
+.misty-contant h4 {
+    margin: 0;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+
+.misty-contant p {
+    margin: 0;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Nunito';
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+.mistyunder {
+    width: 34%!important;
+    height: 4px!important;
+    color: #57af9f!important;
+    opacity: 1!important;
+}
+
+.mountunder {
+  width: 34%!important;
+  height: 4px!important;
+  color: #57af9f!important;
+  opacity: 1!important;
+}
+
+
+.mountant-contant {
+    position: relative;
+    text-align: right;
+    padding: 133px 45px 24px 16px;
+
+}
+
+
+.mountant-contant h4 {
+    margin: 0;
+    font-size: 26px;
+    font-family: 'Nunito';
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.mountant-contant p {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 100;
+    font-family: 'Nunito';
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+
+.subscribe {
+    padding: 110px 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url(../images/bg-signup.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+.fa-solid{
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.fa-paper-plane-o:before {
+    content: "/f1d9";
+}
+
+.subscribe-containt h2 {
+    margin: 0;
+    color: #fff;
+    font-family: 'Varela Round';
+    font-size: 34px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 65px;
+}
+
+.email {
+    box-shadow: 0 3pt 3pt 0 rgb(0 0 0 / 10%) !important;
+    padding: 20px 32px;
+    height: auto;
+    border: 0;
+    width: 55%;
+    text-transform: uppercase;
+    font-size: 80%;
+    border-radius: 5px;
+    margin-top: 35px;
+}
+
+
+.address-section {
+    position: relative;
+    background-color: #000;
+    padding-bottom: 30px;
+}
+
+.btn {
+    padding: 20px 35px!important;
+    background-color: #46897c!important;
+    color: #fff!important;
+    font-size: 80%!important;
+    text-transform: uppercase!important;
+    font-family: 'Nunito'!important;
+    letter-spacing: 2px!important;
+    margin-left: 5px;
+}
+
+
+.address-box {
+    position: relative;
+    background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    border-bottom: 4px solid #2b8166;
+    opacity: 1;
+}
+
+
+.mobile-number{
+    position: relative;
+    background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    border-bottom: 4px solid #2b8166;
+    opacity: 1;
+}
+
+
+
+.fa.fa-map {
+    font-size: 18px;
+    color: #5ab19f;
+    line-height: 50px;
+}
+
+.fa-map:before {
+    content: "/f279";
+}
+
+.address-box h5 {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Varela Round';
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding-bottom: 60px;
+}
+
+.address-box h5::after{
+  content: "";
+  position: absolute;
+  top: 58%;
+  left: 42%;
+  width: 67px;
+  height: 3px;
+  background-color: rgb(90, 177, 159);
+}
+
+.address-box p {
+    margin: 0;
+    font-size: 13px!important;
+    font-family: 'Varela Round';
+    color: #777;
+}
+
+
+.fa.fa-envelope {
+    font-size: 18px;
+    color: #5ab19f;
+    line-height: 50px;
+}
+
+.fa-envelope:before {
+    content: "/f279";
+}
+
+
+.email-address{
+    position: relative;
+    background: #fff;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.email-address h5{
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Varela Round';
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding-bottom: 53px;
+}
+
+.email-address h5::after{
+      content: "";
+      position: absolute;
+      top: 58%;
+      left: 42%;
+      width: 67px;
+      height: 3px;
+      background-color: rgb(90, 177, 159);
+}
+
+.email-address a{
+  text-decoration: none;
+  margin: 0;
+  font-size: 13px!important;
+  font-family: 'Varela Round';
+  color: #777;
+}
+
+
+.mobile-number .fa-mobile-screen{
+  font-size: 18px;
+  color: #5ab19f;
+  line-height: 50px;
+}
+
+.fa-mobile-screen::before {
+    content: "/f279";
+}
+
+.mobile-number h5{
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Varela Round';
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding-bottom: 60px;
+}
+
+.mobile-number h5::after{
+  content: "";
+  position: absolute;
+  top: 58%;
+  left: 42%;
+  width: 67px;
+  height: 3px;
+  background-color: rgb(90, 177, 159);
+}
+
+.mobile-number p{
+  margin: 0;
+  font-size: 13px!important;
+  font-family: 'Varela Round';
+  color: #777;
+}
+
+
+
+
+
+.footer {
+    position: relative;
+    background: #000;
+}
+
+.foot-icon {
+    padding: 60px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Nunito';
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 1px;
+    padding-bottom: 50px;
+}
+
+.fa-twitter {
+    padding: 10px 11px;
+    color: #fff;
+    font-size: 24px;
+    border: dashed 3px #fff;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.fa-twitter::before{
+  content: "/f09b";
+}
+
+.fa-facebook-f{
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 24px;
+    border: dashed 3px #fff;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.fa-facebook-f::before{
+  content: "/f09b";
+}
+
+.fa-github {
+    padding: 10px 12px;
+    color: #fff;
+    font-size: 24px;
+    border: dashed 3px #fff;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.fa-github:before {
+    content: "/f09b";
+}
+
+/* max width 991px */
+@media(max-width:991px){
+  .built-containt p{
+    font-size: 16px;
+  }
+  .project-contant{
+    padding: 0 0 0 16px;
+    margin-top: 50px;
+  }
+
+  .project-contant p{
+    padding-right: 12px;
+  }
+
+  .misty-contant{
+    padding: 61px 10px 61.8px 15px;
+  }
+
+  .misty-contant p{
+    font-size: 16px;
+  }
+
+  .banner h1{
+    font-size: 60px;
+    letter-spacing: 10px;
+  }
+
+  .address-box h5::after {
+    left: 45%;
+  }
+
+  .email-address h5::after {
+    left: 45%;
+  }
+
+  .mobile-number h5::after {
+    left: 45%;
+  }
+
+  .mountant-contant p{
+    font-size: 16px;
+  }
+}
+
+
+
+@media(min-width: 992px) and (max-width: 1199px){
+
+}
+
+
+/* width 768px to 991px */
+@media(min-width: 768px) and (max-width: 991px){
+
+}
+
+/* max width 767px */
+@media(max-width: 767px){
+  .built-containt p{
+    font-size: 13px;
+  }
+
+  .project-section {
+    margin-top: 20px;
+  }
+  .project-contant {
+    margin-top: 0px;
+  }
+
+  .misty-contant{
+    padding: 4px 20px 1px 20px;
+  }
+
+.mountant-contant {
+  padding: 3px 2px 2px 4px;
+}
+
+.banner h1 {
+  font-size: 45px;
+  letter-spacing: 8px;
+}
+.banner h2 {
+  font-size: 16px;
+}
+
+.banner-buttan a{
+  font-size: 65%;
+  padding: 13px 16px;
+
+}
+
+.banner-buttan a{
+  font-size: 27px;
+}
+
+.btn {
+    padding: 13px 23px!important;
+}
+
+.email {
+    padding: 14px 19px;
+    border: 0;
+    width: 55%;
+    text-transform: uppercase;
+    font-size: 73%;
+    border-radius: 5px;
+    margin-top: 35px;
+}
+
+
+
+
+}
+
+/* width 576px to 767px */
+@media(min-width: 576px) and (max-width: 767px){
+
+}
+
+/* max with 575px */
+@media(max-width: 575px){
+  .banner h1 {
+    font-size: 40px;
+    letter-spacing: 6px;
+    line-height: 63px;
+}
+
+
+
+.banner h2 {
+    width: 300px;
+    font-size: 16px;
+}
+
+.built-containt p {
+    font-size: 13px;
+}
+
+.address-box h5::after {
+  left: 44%;
+}
+
+.email-address h5::after {
+  left: 44%;
+}
+
+.mobile-number h5::after {
+  left: 44%;
+}
+
+
+
+.project-section {
+    margin-top: 0px;
+}
+
+.project-contant{
+ margin-top: 0px;
+ padding: 0 0 0 10px;
+}
+
+.project-contant p{
+  padding-right: 0px;
+}
+
+.misty-contant{
+  padding: 35px 20px 35px 25px;
+}
+
+.mountant-contant{
+  padding: 20px 30px 20px 20px;
+}
+
+.subscribe{
+  margin-top: 0px;
+}
